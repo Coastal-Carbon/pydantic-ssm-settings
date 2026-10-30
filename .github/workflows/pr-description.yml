@@ -1,0 +1,9 @@
+name: PR description
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  check:
+    uses: Coastal-Carbon/.github/.github/workflows/pr-description.yml@main
